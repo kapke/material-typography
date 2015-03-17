@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "material-typography.css",
+	"sources": [
+		"main.scss"
+	],
+	"sourcesContent": [],
+	"mappings": ";AAyDA;EALI,AAAW;EACX,AANa;;;AAUjB;EALI,AAAW;EACX,AAXS;;;AAeb;EALI,AAAW;EACX,AAXS;;;AAeb;EALI,AAAW;EACX,AAXS;;;AAeb;EALI,AAAW;EACX,AAXS;;;AAeb;EALI,AAAW;EACX,AANa;;;AAUjB;EALI,AAAW;EACX,AAXS;;;AAeb;EALI,AAAW;EACX,AANa;;;AAUjB;EALI,AAAW;EACX,AAXS;;;AAeb;EALI,AAAW;EACX,AAXS;;;AAeb;EAPQ,AAAgB;EAEpB,AAAW;EACX,AANa",
+	"names": []
+}

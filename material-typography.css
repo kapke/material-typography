@@ -1,0 +1,57 @@
+/* line 58, /home/akopec_skygate/projects/material-typography/main.scss */
+.display-4 {
+  font-size: 112 px;
+  font-weight: 100; }
+
+/* line 58, /home/akopec_skygate/projects/material-typography/main.scss */
+.display-3 {
+  font-size: 56 px;
+  font-weight: 400; }
+
+/* line 58, /home/akopec_skygate/projects/material-typography/main.scss */
+.display-2 {
+  font-size: 45 px;
+  font-weight: 400; }
+
+/* line 58, /home/akopec_skygate/projects/material-typography/main.scss */
+.display-1 {
+  font-size: 34 px;
+  font-weight: 400; }
+
+/* line 58, /home/akopec_skygate/projects/material-typography/main.scss */
+.headline {
+  font-size: 24 px;
+  font-weight: 400; }
+
+/* line 58, /home/akopec_skygate/projects/material-typography/main.scss */
+.title {
+  font-size: 20 px;
+  font-weight: 500; }
+
+/* line 58, /home/akopec_skygate/projects/material-typography/main.scss */
+.subhead {
+  font-size: 16 px;
+  font-weight: 400; }
+
+/* line 58, /home/akopec_skygate/projects/material-typography/main.scss */
+.body-2 {
+  font-size: 14 px;
+  font-weight: 500; }
+
+/* line 58, /home/akopec_skygate/projects/material-typography/main.scss */
+.body-1 {
+  font-size: 14 px;
+  font-weight: 400; }
+
+/* line 58, /home/akopec_skygate/projects/material-typography/main.scss */
+.caption {
+  font-size: 12 px;
+  font-weight: 400; }
+
+/* line 58, /home/akopec_skygate/projects/material-typography/main.scss */
+.button {
+  text-transform: uppercase;
+  font-size: 12 px;
+  font-weight: 500; }
+
+/*# sourceMappingURL=material-typography.css.map */
