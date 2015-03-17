@@ -39,7 +39,7 @@ $styles: (
     )
 );
 
-@mixin text($name: 'body-1') {
+@mixin material-text($name: 'body-1') {
     $weight: 400;
 
     $style: map-get($styles, $name);
