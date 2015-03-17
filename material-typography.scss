@@ -1,61 +1,74 @@
 $styles: (
     'display-4': (
         'size': 112,
-        'weight': 100
+        'weight': 100,
+        'opacity': 0.54
     ),
     'display-3': (
-        'size': 56
+        'size': 56,
+        'opacity': 0.54
     ),
     'display-2': (
-        'size': 45
+        'size': 45,
+        'opacity': 0.54
     ),
     'display-1': (
-        'size': 34
+        'size': 34,
+        'opacity': 0.54
     ),
     'headline': (
-        'size': 24
+        'size': 24,
+        'opacity': 0.87
     ),
     'title': (
         'size': 20,
-        'weight': 500
+        'weight': 500,
+        'opacity': 0.87
     ),
     'subhead': (
-        'size': 16
+        'size': 16,
+        'opacity': 0.87
     ),
     'body-2': (
         'size': 14,
-        'weight': 500
+        'weight': 500,
+        'opacity': 0.87
     ),
     'body-1': (
-        'size': 14
+        'size': 14,
+        'opacity': 0.87
     ),
     'caption': (
-        'size': 12
+        'size': 12,
+        'opacity': 0.54
     ),
     'button': (
         'size': 12,
         'weight': 500,
-        'transform': uppercase
+        'transform': uppercase,
+        'opacity': 0.87
     )
 );
 
-@mixin material-text($name: 'body-1') {
+@mixin material-text($name: 'body-1', $color: black) {
     $weight: 400;
 
     $style: map-get($styles, $name);
     $size: map-get($style, 'size');
+    $opacity: map-get($style, 'opacity');
     @if (map-has-key($style, 'weight')) {
         $weight: map-get($style, 'weight');
     }
     @if (map-has-key($style, 'transform')) {
         text-transform: map-get($style, 'transform');
     }
-    font-size: #{$size'px'};
+    font-size: #{$size}px;
     font-weight: $weight;
+    color: rgba($color, $opacity);
 }
 
 @each $name, $style in $styles {
     .#{$name} {
-        @include text(#{$name});
+        @include material-text(#{$name});
     }
 }
