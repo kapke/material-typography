@@ -1,6 +1,6 @@
 # Material typography
 
-Set of styles (CSS and SASS) for materialistic typography (http://www.google.com/design/spec/style/typography.html#typography-standard-styles)
+Set of styles (CSS and SASS) for material typography (http://www.google.com/design/spec/style/typography.html#typography-standard-styles)
 
 ## Installation
 Just
@@ -39,7 +39,7 @@ There are available classes with each style name `.display-1`, `.display-2`, etc
 
 ### SASS
 
-There is available map of maps containing styles for each style. This map is named `$styles`.
+There is available map of maps containing styles for each item. This map is named `$styles`.
 
 There is also mixin `@material-text` with declaration as given:
 
